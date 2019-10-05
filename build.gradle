@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+application {
+    mainClassName = 'com.github.sscodes.playfair.Main'
+}
+
+run {
+    standardInput = System.in
+}
